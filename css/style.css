@@ -1,0 +1,17 @@
+:root {
+  --bg-hero-color: #1f2937; /*information header text also; quote text*/
+  --bg-button-color: #3882f6;
+  --bg-quote-color: #e5e7eb; /*header link text also*/
+  --hero-main-text: #f9faf8; /*header logo text also*/
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
