@@ -16,12 +16,24 @@ html {
   font-size: 16px;
 }
 
+button {
+  background-color: var(--bg-button-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--bg-quote-color);
+  font-size: 1.125rem;
+  margin: 1rem;
+  padding: 0.5rem 1.5rem;
+}
+
+/* Navbar */
+
 .navbar {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
   background-color: var(--bg-hero-color);
-  padding: 1rem;
+  padding: 1rem 8rem;
   font-size: 1.125rem;
 }
 
@@ -35,6 +47,47 @@ html {
   color: var(--hero-main-text);
   font-size: 1.5rem;
 }
+
+/* Hero */
+
+.hero {
+  background-color: var(--bg-hero-color);
+  height: 50vh;
+  display: flex;
+  padding: 2rem 5rem;
+}
+
+.sign-up {
+  margin: 1rem;
+  padding: 2rem;
+  width: 50%;
+}
+
+.hero-img {
+  margin: 1rem;
+  padding: 2rem;
+  width: 50%;
+}
+
+.hero-img img {
+  height: 350px;
+  width: 800px;
+  object-fit: cover;
+}
+.hero-main-text {
+  color: var(--hero-main-text);
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 1rem 0.75rem;
+}
+
+.hero-secondary-text {
+  color: var(--bg-quote-color);
+  font-size: 1.125rem;
+  margin: 1rem 0.75rem;
+}
+
+/* Utilities */
 
 .push-left {
   margin-right: auto;
