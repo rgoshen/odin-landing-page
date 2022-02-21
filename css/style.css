@@ -71,7 +71,7 @@ button {
 
 .hero-img img {
   height: 350px;
-  width: 800px;
+  width: 700px;
   object-fit: cover;
 }
 .hero-main-text {
@@ -85,6 +85,52 @@ button {
   color: var(--bg-quote-color);
   font-size: 1.125rem;
   margin: 1rem 0.75rem;
+}
+
+/* Information Section */
+
+.information {
+  height: 50vh;
+  padding: 2rem 5rem;
+}
+
+.information h1 {
+  color: var(--bg-hero-color);
+  font-size: 2.25rem;
+  font-weight: 900;
+  margin: 1rem;
+  text-align: center;
+}
+
+.info-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+  width: 12.5%;
+}
+
+.info-box {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  border: 3px solid var(--bg-button-color);
+  border-radius: 10px;
+}
+
+.info-text {
+  color: var(--bg-hero-color);
+  text-align: center;
 }
 
 /* Utilities */
